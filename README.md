@@ -70,16 +70,17 @@ pip install requests python-dotenv
 
 Create a `.env` file in the root of the project:
 ```
-GITHUB_TOKEN=your_token_here
+GITHUB_TOKEN=token...
 ```
 
-To get a free token: GitHub → Settings → Developer Settings → Personal Access Tokens → Tokens (classic) → Generate new token. Only the `public_repo` scope is needed.
+To get a free token: GitHub > Settings > Developer Settings > Personal Access Tokens > Tokens (classic) > Generate new token. Only the `public_repo` scope is needed.
 
 ### Usage
 
 ```bash
 python analyzer.py <github-repo-url>
 ```
+
 
 
 
