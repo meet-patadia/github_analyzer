@@ -4,11 +4,11 @@ A command-line tool that gives you an instant breakdown of any public GitHub rep
 
 ---
 
-## What it does
+### What it does
 
 Point it at any GitHub repo and get a structured report in seconds
 
-## How it works
+### How it works
 
 The tool makes a series of calls to the GitHub REST API:
 
@@ -25,29 +25,24 @@ Dependency detection currently supports:
 - **Go** → `go.mod`
 - **Java** → `pom.xml`
 
----
-
-## Project structure
+### Project structure
 
 ```
 github-analyzer/
-├── analyzer.py       # Main script
-├── .env              # Your GitHub token (never committed)
-├── .gitignore        # Keeps .env out of version control
+├── analyzer.py      
+├── .env             
+├── .gitignore      
 └── README.md
 ```
 
----
-
-## Requirements
+### Requirements
 
 - Python 3.7+
 - A free GitHub account + personal access token
 - `requests` and `python-dotenv` libraries
 
----
 
-## Setup
+### Setup
 
 **1. Clone the repo**
 ```bash
@@ -80,12 +75,10 @@ GITHUB_TOKEN=your_token_here
 
 To get a free token: GitHub → Settings → Developer Settings → Personal Access Tokens → Tokens (classic) → Generate new token. Only the `public_repo` scope is needed.
 
----
-
-## Usage
+### Usage
 
 ```bash
 python analyzer.py <github-repo-url>
 ```
----
+
 
