@@ -1,4 +1,4 @@
-# 🔍 GitHub Repository Analyzer
+# GitHub Repository Analyzer
 
 A command-line tool that gives you an instant breakdown of any public GitHub repository — languages, file count, largest files, and dependencies. Built in Python.
 
@@ -88,3 +88,4 @@ To get a free token: GitHub → Settings → Developer Settings → Personal Acc
 python analyzer.py <github-repo-url>
 ```
 ---
+
