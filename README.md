@@ -20,10 +20,10 @@ The tool makes a series of calls to the GitHub REST API:
 | `raw.githubusercontent.com/...` | Reading dependency files |
 
 Dependency detection currently supports:
-- **JavaScript/Node** → `package.json`
-- **Python** → `requirements.txt`, `Pipfile`
-- **Go** → `go.mod`
-- **Java** → `pom.xml`
+- **JavaScript/Node** - `package.json`
+- **Python** - `requirements.txt`, `Pipfile`
+- **Go** - `go.mod`
+- **Java** - `pom.xml`
 
 ### Project structure
 
@@ -80,5 +80,6 @@ To get a free token: GitHub → Settings → Developer Settings → Personal Acc
 ```bash
 python analyzer.py <github-repo-url>
 ```
+
 
 
